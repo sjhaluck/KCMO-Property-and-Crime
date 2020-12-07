@@ -1,3 +1,5 @@
 .ipynb_checkpoints/*
 kc_property_violations.csv
 crimes_2010-2019.csv
+Cities.*
+Geopandas*
