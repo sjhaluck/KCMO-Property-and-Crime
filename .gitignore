@@ -3,3 +3,4 @@ kc_property_violations.csv
 crimes_2010-2019.csv
 Geopandas*
 zip*.xls*
+violations_master.csv
