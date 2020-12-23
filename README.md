@@ -13,13 +13,38 @@ Population data was gathered from [ZipAtlas](http://zipatlas.com/us/mo/kansas-ci
 
 Geopandas tutorial and animation adapted from [Benjamin Cooley](https://towardsdatascience.com/how-to-make-a-gif-map-using-python-geopandas-and-matplotlib-cd8827cefbc8) and [Binod](https://stackoverflow.com/questions/753190/programmatically-generate-video-or-animated-gif-in-python).
 
-
 ## Purpose
 
 ### Questions
 - What are the comparisons between income, crime, and property violation across zip code?
 - What are the recent changes in rate of crime and property violations?
 - What is the relationship between income, crime, and property violations?
+
+
+## Methods
+
+### Packages
+- `pandas`
+- `geopandas`
+- `matplotlib`
+- `numpy`
+- `PIL > Image`
+
+### Techniques
+- combining all crime data into a single table (`concat`)
+- normalizing column names (`lower`,`map`, and `replace`)
+- investigating values (`value_counts()`)
+- cleaning data of duplicate and null entries (`drop_duplicates`, `dropna`)
+- formatting variables to appropriate type (`astype`)
+- pandas `sort_values` to organize data
+- pandas `query` to isolate specific datasets
+- pandas `pivot` and `join` to combine datasets
+- geopandas `plot` to map different statistics across the datasets
+- matplotlib `annotate` to annotate the maps
+- geopandas `representative_point` to place annotations correctly on map
+- matplotlib `plot` to plot time graphs and bar charts
+- `PIL/Image` library to create custom animated GIFs
+
 
 ## Conclusion
 
