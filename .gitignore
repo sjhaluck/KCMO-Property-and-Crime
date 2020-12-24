@@ -1,7 +1,7 @@
 .ipynb_checkpoints/*
-kc_property_violations.csv
-crimes_2010-2019.csv
+data/kc_property_violations.csv
+data/crimes_2010-2019.csv
 Geopandas*
-zip*.xls*
-violations_master.csv
-crimes_master.csv
+data/zip*.xls*
+data/violations_master.csv
+data/crimes_master.csv
